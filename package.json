@@ -1,0 +1,29 @@
+{
+  "name": "node-js-learning",
+  "version": "1.0.0",
+  "description": "Node js Tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rukmana-805/node-js-tut.git"
+  },
+  "keywords": [
+    "First",
+    "node",
+    "js",
+    "projrct"
+  ],
+  "author": "Akash Behera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rukmana-805/node-js-tut/issues"
+  },
+  "homepage": "https://github.com/rukmana-805/node-js-tut#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "nodemon": "^3.1.4"
+  }
+}
