@@ -24,6 +24,7 @@
   "homepage": "https://github.com/rukmana-805/node-js-tut#readme",
   "dependencies": {
     "colors": "^1.4.0",
+    "express": "^4.19.2",
     "nodemon": "^3.1.4"
   }
 }
