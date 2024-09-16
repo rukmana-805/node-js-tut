@@ -12,6 +12,7 @@ const app = express();
 app.use(express.json());//This line is for when someone post the data from the postman then this line help to
 //convert it to the json format.
 
+//This method is basically used for posting data to the database using api requist
 app.post("/",async (req,resp) => {
     
     let collection = await dbConnect();//mongodb connection estabilish here
