@@ -8,6 +8,7 @@ const multer = require("multer");
 
 const app = express();
 
+//Use as middleware
 const upload = multer({
     storage:multer.diskStorage({
         destination:function(req,file,cb){
